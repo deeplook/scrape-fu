@@ -1,3 +1,4 @@
 Scrapy
 beautifulsoup4
 requests
+sqlalchemy
