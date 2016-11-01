@@ -1,0 +1,14 @@
+$ time python3 freebora.py -v --cat networking --dest networking --list-sync networking-urls.txt --fetch-async networking-urls.txt
+Created destination folder: "networking"
+http://shop.oreilly.com/category/ebooks/networking.do
+http://www.oreilly.com/webops-perf/free/files/network-automation-with-ansible.pdf
+http://www.oreilly.com/webops-perf/free/files/are-your-networks-ready-for-the-iot.pdf
+http://www.oreilly.com/iot/free/files/privacy-and-the-iot.pdf
+#urls found: 3
+saved networking/are-your-networks-ready-for-the-iot.pdf (1535446 bytes)
+saved networking/network-automation-with-ansible.pdf (3609541 bytes)
+saved networking/privacy-and-the-iot.pdf (12275926 bytes)
+
+real 0m34.093s
+user 0m1.259s
+sys  0m0.219s
