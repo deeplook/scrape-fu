@@ -1,5 +1,5 @@
-Fetch Free O'Reilly Data eBooks
-===============================
+Fetch Free O'Reilly eBooks
+==========================
 
 .. image:: header.png
     :width: 100 %
