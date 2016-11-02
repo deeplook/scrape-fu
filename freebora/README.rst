@@ -19,11 +19,13 @@ Step 1 is done sequentially (for now), while for step 2 you can choose
 between a sequential and a parallel version using 'requests' and 'aiohttp',
 respectively.
 
-See the files ``session1.txt`` and ``session2.txt`` for a small and large
-usecase, respectively.
+See the files ``session1.txt``, ``session2.txt`` and ``session3.txt`` for some
+use-cases of varying sizes.
 
 Todo:
 
 - package nicely using ``distutils``
 - add an async version of the function to collect URLs (step 1 above)
 - improve command-line interface
+- add feature to download not only PDFs, but other formats, too
+- add feature to list all available ebook category names

@@ -140,13 +140,14 @@ def main():
         help='Overwrite previously created file(s), for both the URL '
              'list and/or downloaded PDFs.')
     p.add_argument('--cat', metavar='NAME', default='data',
-        help='Category of ebooks, e.g. data (default), design, iot, ...')
-    p.add_argument('--list-sync', metavar='PATH', 
-        help='Collect URLs to be downloaded into file with given path.')
-    p.add_argument('--fetch-sync', metavar='PATH', 
-        help='Download URLs sequentially from file with given path.')
-    p.add_argument('--fetch-async', metavar='PATH', 
-        help='Download URLs in parallel from file with given path.')
+        help='Category of ebooks, e.g. data (default), design, iot, '\
+             'python/programming, ...')
+    p.add_argument('--list-sync', metavar='NAME',
+        help='Collect URLs to be downloaded into given filename.')
+    p.add_argument('--fetch-sync', metavar='NAME',
+        help='Download URLs sequentially from given filename.')
+    p.add_argument('--fetch-async', metavar='NAME',
+        help='Download URLs in parallel from given filename.')
 
     args = p.parse_args()
 
